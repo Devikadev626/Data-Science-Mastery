@@ -24,3 +24,5 @@ A beginner-friendly scientific calculator project using:
 
 ```bash
 python main.py
+
+![Scientific Calculator](assets/calculator.png)
