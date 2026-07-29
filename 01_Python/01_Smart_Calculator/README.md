@@ -1,248 +1,46 @@
-# 🧮 Smart Calculator
+# Smart Calculator (Professional Portfolio Version)
 
-A modern **Python Smart Calculator** developed using **Tkinter** with a clean dark-themed graphical interface.
-
-This project demonstrates the fundamentals of Python programming, GUI development, event-driven programming, and exception handling. It is the first project in the **Data-Science-Mastery** repository.
+A sleek, feature-rich desktop calculator application built using Python and Tkinter, designed with a modern dark-mode aesthetic and advanced arithmetic functions. Part of the **Data-Science-Mastery** repository.
 
 ---
 
-# 📌 Project Information
+## Project Overview
 
-| Attribute | Details |
-|-----------|---------|
-| Project Name | Smart Calculator |
-| Difficulty | Beginner |
-| Category | Python Fundamentals |
-| Language | Python 3 |
-| GUI Framework | Tkinter |
-| Author | Devika M |
-| Repository | Data-Science-Mastery |
+The **Smart Calculator** provides a clean, responsive graphical user interface (GUI) tailored for everyday calculations as well as scientific shortcuts. Beyond standard arithmetic operations, it includes support for square roots, squaring, percentages, error management, and real-time input parsing.
 
 ---
 
-# 🚀 Features
+## Features
 
-### Basic Arithmetic
-
-- Addition
-- Subtraction
-- Multiplication
-- Division
-
-### Advanced Operations
-
-- Square Root
-- Percentage
-- Decimal Support
-- Clear Screen
-- Delete Last Character
-
-### Error Handling
-
-- Division by Zero
-- Invalid Expressions
-- Empty Input Validation
-
-### User Interface
-
-- Modern Dark Theme
-- Large Responsive Buttons
-- Easy-to-use Layout
-- Real-time Display
-- Keyboard-friendly Interface
+- **Advanced Operations:** Standard arithmetic (`+`, `-`, `*`, `/`) alongside mathematical utilities including Square Roots ($\sqrt{x}$), Squaring ($x^2$), and Percentage calculations (`%`).
+- **Dynamic Control Panel:** Interactive color-coded button grid separating actions (`AC`, `⌫`), operations, and numerical entries for optimal user experience.
+- **Modern Dark Theme UI:** Styled with a professional deep slate color palette (`#1E1E2E`), high-contrast display screens, and smooth `Segoe UI` typography.
+- **Defensive Error Handling:** Built-in exception management trapping invalid expressions, division errors, and negative square root inputs via popup alert dialogs.
+- **Responsive Screen Layout:** Fixed, compact dimensions with right-aligned dynamic text entry fields.
 
 ---
 
-# 📚 Concepts Covered
+## Technologies Used
 
-This project demonstrates the following Python concepts:
+- **Python 3.13+**
+- **Tkinter** (Native GUI framework)
+- **Math Module** (Scientific calculation support)
 
-- Variables
-- Data Types
-- Operators
-- User Input
-- Functions
-- Conditional Statements
-- Exception Handling
-- Modules
-- Event Handling
-- GUI Programming
-- Object-Oriented Design (Optional Extension)
-- Tkinter Widgets
-- Lambda Functions
+*No external third-party packages are required.*
 
 ---
 
-# 🛠 Technologies Used
+## Project Structure
 
-- Python 3.13
-- Tkinter
-- Math Module
-- VS Code
-- Git
-- GitHub
-
----
-
-# 📂 Project Structure
-
-```
-01_Smart_Calculator
+```text
+04_Smart_Calculator/
 │
-├── calculator.py
+├── smart_calculator.py
 ├── README.md
 ├── requirements.txt
-├── output.txt
 │
-├── screenshots
-│   ├── calculator_screenshot.png
-│   ├── Screenshot (6).png
-│   └── Screenshot (7).png
+├── screenshots/
+│      ├── app.png
+│      └── result.png
 │
-└── assets
-```
-
----
-
-# ▶️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/Devikadev626/Data-Science-Mastery.git
-```
-
-Navigate to the project
-
-```bash
-cd Data-Science-Mastery/01_Python/01_Smart_Calculator
-```
-
-Create Virtual Environment
-
-Windows
-
-```bash
-py -m venv .venv
-```
-
-Activate
-
-PowerShell
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Run the Project
-
-```bash
-py calculator.py
-```
-
----
-
-# 📸 Screenshots
-
-## Calculator Interface
-
-![Calculator](screenshots/calculator_screenshot.png)
-
----
-
-# 📖 Learning Outcomes
-
-After completing this project you will understand:
-
-- Python Programming Basics
-- Tkinter GUI Development
-- Button Event Handling
-- Calculator Logic
-- Error Handling
-- Layout Management
-- Python Functions
-- User Interface Design
-
----
-
-# 📈 Future Improvements
-
-Some ideas to enhance this calculator:
-
-- Scientific Calculator
-- Light/Dark Theme Toggle
-- Calculation History
-- Keyboard Shortcuts
-- Copy Result
-- Memory Functions
-- Unit Converter
-- Currency Converter
-- Voice Input
-- Expression Parser
-- Calculator Themes
-
----
-
-# 💡 Skills Demonstrated
-
-- Python Programming
-- GUI Development
-- Problem Solving
-- Software Design
-- Clean Code Practices
-- Git Version Control
-- GitHub Project Management
-
----
-
-# 📄 License
-
-This project is released under the MIT License.
-
----
-
-# ⭐ Repository
-
-If you found this project useful, consider giving the repository a ⭐.
-
-GitHub Repository:
-
-**https://github.com/Devikadev626/Data-Science-Mastery**
-
----
-
-## 👩‍💻 Author
-
-**Devika M**
-
-AI Engineer | Data Scientist | Data Analytics Trainer
-
-GitHub:
-https://github.com/Devikadev626
-
----
-
-### Data-Science-Mastery Roadmap
-
-- ✅ Project 01 — Smart Calculator
-- ⏳ Project 02 — Student Grade Calculator
-- ⏳ Project 03 — Password Generator
-- ⏳ Project 04 — Number Guessing Game
-- ⏳ Project 05 — To-Do List App
-- ⏳ Project 06 — Expense Tracker
-- ⏳ Project 07 — Library Management System
-- ⏳ Project 08 — Weather App
-- ⏳ Project 09 — File Organizer
-- ⏳ Project 10 — Chat Application
-
----
-
-**Built with Python ❤️**
+└── assets/
