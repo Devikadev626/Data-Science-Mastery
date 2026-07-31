@@ -1,0 +1,5 @@
+# Smart Calculator
+# No external dependencies required.
+# Uses Python Standard Library:
+# - tkinter
+# - math
