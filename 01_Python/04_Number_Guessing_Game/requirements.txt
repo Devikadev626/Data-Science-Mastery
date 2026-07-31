@@ -1,0 +1,4 @@
+# No external libraries required.
+# Uses built-in Python modules:
+# tkinter
+# random

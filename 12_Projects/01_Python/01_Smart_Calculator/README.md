@@ -43,4 +43,8 @@ The **Smart Calculator** provides a clean, responsive graphical user interface (
 │      ├── app.png
 │      └── result.png
 │
+<<<<<<< HEAD
 └── assets/
+=======
+└── assets/
+>>>>>>> e60f949 (Add Project 04 - Number Guessing Game)
