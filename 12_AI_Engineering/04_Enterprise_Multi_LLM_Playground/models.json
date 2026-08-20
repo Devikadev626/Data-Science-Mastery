@@ -1,0 +1,64 @@
+{
+  "models": [
+    {
+      "id": "llama3",
+      "name": "Llama 3 (8B)",
+      "provider": "Meta",
+      "parameter_size": "8B",
+      "context_window": 8192,
+      "description": "Meta's open-weights model optimized for general reasoning, coding, and dialogue tasks.",
+      "recommended_temperature": 0.7,
+      "recommended_top_p": 0.9,
+      "max_output_tokens": 2048,
+      "tags": ["General", "Reasoning", "Code"]
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral (7B)",
+      "provider": "Mistral AI",
+      "parameter_size": "7B",
+      "context_window": 32768,
+      "description": "High-efficiency 7B model known for fast response generation and strong instruction following.",
+      "recommended_temperature": 0.7,
+      "recommended_top_p": 0.9,
+      "max_output_tokens": 2048,
+      "tags": ["Fast", "Instruction", "General"]
+    },
+    {
+      "id": "phi3",
+      "name": "Phi-3 Mini (3.8B)",
+      "provider": "Microsoft",
+      "parameter_size": "3.8B",
+      "context_window": 4096,
+      "description": "Lightweight, highly capable small language model suited for fast local evaluation.",
+      "recommended_temperature": 0.5,
+      "recommended_top_p": 0.85,
+      "max_output_tokens": 1024,
+      "tags": ["Lightweight", "Fast", "Reasoning"]
+    },
+    {
+      "id": "codellama",
+      "name": "CodeLlama (7B)",
+      "provider": "Meta",
+      "parameter_size": "7B",
+      "context_window": 16384,
+      "description": "Specialized Code Llama variant fine-tuned on code-specific datasets and software tasks.",
+      "recommended_temperature": 0.2,
+      "recommended_top_p": 0.95,
+      "max_output_tokens": 2048,
+      "tags": ["Coding", "Refactoring", "Syntax"]
+    },
+    {
+      "id": "gemma:2b",
+      "name": "Gemma (2B)",
+      "provider": "Google",
+      "parameter_size": "2B",
+      "context_window": 8192,
+      "description": "Ultra-compact open model built from Gemini technology for low-latency local inference.",
+      "recommended_temperature": 0.7,
+      "recommended_top_p": 0.9,
+      "max_output_tokens": 1024,
+      "tags": ["Ultra-Fast", "Compact", "General"]
+    }
+  ]
+}
