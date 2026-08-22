@@ -4,8 +4,20 @@ TranscribeAI is an AI-powered audio transcription application built with **OpenA
 
 The application allows users to upload an audio file, select a Whisper model, generate a transcript, review the transcription, and download the result as a `.txt` file.
 
-## Demo
 
+## Demo Screenshots
+
+### 1. TranscribeAI — Audio Upload & Model Selection
+
+![TranscribeAI Audio Upload](screenshots/streamlit_transcribeai_1.png)
+
+### 2. TranscribeAI — Audio Processing
+
+![TranscribeAI Processing](screenshots/streamlit_transcribeai_2.png)
+
+### 3. TranscribeAI — Transcription Result
+
+![TranscribeAI Transcription Result](screenshots/streamlit_transcribeai_3.png)
 ### Streamlit Application
 
 ![TranscribeAI Streamlit Application](screenshots/streamlit_transcribeai.png)
