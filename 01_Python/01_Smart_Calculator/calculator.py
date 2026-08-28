@@ -20,7 +20,7 @@ class SmartCalculator:
             root,
             font=("Segoe UI", 28),
             bg="#2A2A40",
-            fg="white",
+            fg="whi.te",
             bd=0,
             justify="right",
             insertbackground="white"
